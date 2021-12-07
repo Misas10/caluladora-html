@@ -1,0 +1,86 @@
+:root {
+  --border-radius: 8px;
+}
+
+body {
+  /* display: flex; */
+  background-image: linear-gradient(236deg, #74ebd5, #acb6e5);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
+  width: 45%;
+  margin: 10vh auto 0 auto;
+  border-radius: var(--border-radius);
+  background-color: #cbd2d9;
+  overflow: hidden;
+}
+
+#screen {
+  text-align: right;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 25px;
+  overflow: auto;
+  color: #f5f7fa;
+  background-color: #1f2933;
+}
+
+.btns {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.btn {
+  border: 0.5 solid;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #e4e7eb;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #cbd2d9;
+}
+
+#um,
+#dois,
+#tres,
+#quatro,
+#cinco,
+#seis,
+#sete,
+#oito,
+#nove,
+#ponto, 
+#zero {
+    background-color: #fff;
+}
+
+#um:hover,
+#dois:hover,
+#tres:hover,
+#quatro:hover,
+#cinco:hover,
+#seis:hover,
+#sete:hover,
+#oito:hover,
+#nove:hover,
+#ponto:hover, 
+#zero:hover {
+    background-color: #cbd2d9;
+}
+
+#igual {
+    background-color: #f9703e;
+}
+
+#igual:hover{
+    background-color: #ffb088;
+}
